@@ -32,18 +32,26 @@ public class Rettangolo {
                 '}';
     }
 
-    void disegna() {
-        for (int i = 0; i <= base; i++) {
-            System.out.print(i);
+    void printRectangle() {
+        printHorizontal();
+        for (int i = 0; i < height - 2; i++) {
+            printVertical();
         }
-        for (int i = 0; i < height; i++) {
-            System.out.println(i);
-        }
+        printHorizontal();
+    }
 
-        for (int i = 0; i <= base ; i++) {
-            System.out.print(i);
+    void printHorizontal() {
+        for (int i = 0; i < base - 1; i++) {
+            System.out.print("x");
         }
-        System.out.println();
+        System.out.println("x");
+    }
 
+    void printVertical() {
+        System.out.print("x");
+        for (int i = 0; i < base - 2; i++) {
+            System.out.print(" ");
+        }
+        System.out.println("x");
     }
 }
