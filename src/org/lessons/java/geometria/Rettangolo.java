@@ -23,4 +23,12 @@ public class Rettangolo {
         int valueArea = (base * height) / 2;
         return valueArea;
     }
+
+    @Override
+    public String toString() {
+        return "Rettangolo {" +
+                "base=" + base +
+                ", height=" + height +
+                '}';
+    }
 }
