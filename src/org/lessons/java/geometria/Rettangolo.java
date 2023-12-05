@@ -31,4 +31,19 @@ public class Rettangolo {
                 ", height=" + height +
                 '}';
     }
+
+    void disegna() {
+        for (int i = 0; i <= base; i++) {
+            System.out.print(i);
+        }
+        for (int i = 0; i < height; i++) {
+            System.out.println(i);
+        }
+
+        for (int i = 0; i <= base ; i++) {
+            System.out.print(i);
+        }
+        System.out.println();
+
+    }
 }

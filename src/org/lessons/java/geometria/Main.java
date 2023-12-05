@@ -18,6 +18,9 @@ public class Main {
         System.out.println(rettangolo1);
         System.out.println("Perimetro = " + rettangolo1.perimetro());
         System.out.println("Area = " + rettangolo1.area());
+
+        rettangolo1.disegna();
+        System.out.println(rettangolo1);
         scanner.close();
     }
 }
