@@ -20,7 +20,7 @@ public class Rettangolo {
     }
 
     int area() {
-        int valueArea = (base * height) / 2;
+        int valueArea = base * height;
         return valueArea;
     }
 
